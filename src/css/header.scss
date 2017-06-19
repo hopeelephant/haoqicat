@@ -1,0 +1,17 @@
+.header{
+  display: flex;
+  height: 4.625rem;
+  background-color: #02c4da;
+  justify-content:space-between;
+  line-height: 4.625rem;
+  font-size: 1.2rem;
+  padding: 0 1.25rem;
+  font-weight: 600;
+  a{
+    text-decoration:none;
+    color:white;
+  }
+  .header-right a{
+    margin-right: 1.25rem;
+  }
+}
