@@ -1,4 +1,4 @@
-import {Router,Route,browserHistory,IndexRoute} from 'react-router';
+import {Router,Route,browserHistory,IndexRoute,hashHistory} from 'react-router';
 import React from 'react';
 import App from './components/App';
 import Home from './components/Home';
@@ -7,7 +7,7 @@ import Login from './components/Login';
 
 export default function(){
   return (
-      <Router history={browserHistory}>
+      <Router history={hashHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
           <Route path="signup" component={Signup}/>
